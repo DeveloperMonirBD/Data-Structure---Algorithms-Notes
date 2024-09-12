@@ -17,7 +17,8 @@
 
 function uniqueName(arr) {
     let uniqueName = [];
-    for (let i = 0; i < arr.length; i++) {//n2
+    for (let i = 0; i < arr.length; i++) {
+        //n2
         let element = arr[i];
         if (!uniqueName.includes(element)) {
             uniqueName.push(element);

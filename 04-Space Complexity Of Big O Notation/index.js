@@ -23,13 +23,16 @@ function sum(arr) {
 
 console.log(sum([23, 4, 6]));
 
-//Big - 0(n) space! :
-function double(arr) {
-    let newArr = [];
-    for (let i = 0; i < arr.length; i++) {
-        newArr.push(arr[i] * 2);
-    }
-    return newArr;
-}
 
-console.log(double([3, 4, 5]));
+
+//Big - 0(n) space! :
+// function double(arr) {
+//     let newArr = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         newArr.push(arr[i] * 2);
+//     }
+//     return newArr;
+// }
+
+// console.log(double([3, 4, 5]));
+
